@@ -1,0 +1,16 @@
+{
+    "name": "ggr/crud",
+    "autoload": {
+        "psr-4": {
+            "Ggr\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gerardo Gutierrez R"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*"
+    }
+}

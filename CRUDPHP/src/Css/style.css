@@ -1,0 +1,116 @@
+h1{
+    font-family: "Comic Sans MS",sans-serif;
+    color: #000000;
+    text-align: center;
+}
+a{
+    font-family: "Comic Sans MS",sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.heade{
+    background-color: #CC00FF;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+header{
+    background-color: #CC00FF;
+    color: #ffffff;
+    padding: 15px;
+    text-align: right;
+}
+nav{
+    background-color: #CC00FF;
+    color: #ffffff;
+    padding: 15px;
+    text-align: right;
+}
+.tabla-pokemon {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: "Comic Sans MS",sans-serif;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tabla-pokemon thead tr {
+    background-color: #CC00FF;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tabla-pokemon th, .tabla-pokemon td {
+    padding: 12px 15px;
+}
+
+.tabla-pokemon tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tabla-pokemon tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+input[type=submit] {
+    background-color: #CC00FF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #000000;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.pokemons{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabla-t {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: "Comic Sans MS",sans-serif;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tabla-t thead tr {
+    background-color: #CC00FF;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tabla-t th, .tabla-t td {
+    padding: 12px 15px;
+}
+
+.tabla-t tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tabla-t tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.teams{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.actions{
+    font-family: "Comic Sans MS",sans-serif;
+    color: rgba(37, 71, 184, 0.76);
+    text-align: center;
+}
